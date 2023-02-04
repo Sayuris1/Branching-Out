@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Stick : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class Stick : MonoBehaviour
     [SerializeField] private HingeJoint2D bottomHinge;
 
     [SerializeField] private float childTorqueFactor = 1f;
+
+    [SerializeField] private AudioSource moveAudio;
+    [SerializeField] private AudioClip[] moveSounds;
+    [SerializeField] private float fullMoveAudioSoundSpeed;
+    [SerializeField] private AudioSource grepAudio;
     
     public List<Stick> childs = new List<Stick>();
     private JointMotor2D _topMotor;
@@ -34,6 +40,14 @@ public class Stick : MonoBehaviour
     private void Start()
     {
         SetSticky(startSticky);
+        moveAudio.clip = moveSounds[Random.Range(0, moveSounds.Length)];
+        moveAudio.volume = 0;
+        Invoke("StartAudio", Random.Range(0, moveAudio.clip.length));
+    }
+
+    private void StartAudio()
+    {
+        moveAudio.Play();
     }
 
     public List<Stick> GetAllChilds()
@@ -57,6 +71,11 @@ public class Stick : MonoBehaviour
             NormalizeHinge(bottomHinge, _bottomMotor);
             NormalizeHinge(topHinge, _topMotor);
         }
+    }
+
+    private void Update()
+    {
+        moveAudio.volume = _rb.velocity.magnitude / fullMoveAudioSoundSpeed;
     }
 
     private void NormalizeHinge(HingeJoint2D hinge, JointMotor2D motor)
@@ -85,6 +104,7 @@ public class Stick : MonoBehaviour
 
     public void StickToTarget(HingeJoint2D hinge, Stick target)
     {
+        grepAudio.Play();
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);
