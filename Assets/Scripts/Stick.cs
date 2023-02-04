@@ -85,7 +85,6 @@ public class Stick : MonoBehaviour
 
     public void StickToTarget(HingeJoint2D hinge, Stick target)
     {
-        Debug.Log(name + " sticked to " + target);
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);

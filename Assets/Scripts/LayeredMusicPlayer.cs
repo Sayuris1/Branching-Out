@@ -6,10 +6,17 @@ using UnityEngine.Audio;
 
 public class LayeredMusicPlayer : MonoBehaviour
 {
-    [SerializeField, Range(0, 1)] private float musicPercent;
+    [Range(0, 1)] public float musicPercent;
     [SerializeField] private AudioClip[] layers;
     private List<AudioSource> _sources = new List<AudioSource>();
     [SerializeField] private AudioMixerGroup mixerGroup;
+
+    public static LayeredMusicPlayer Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {

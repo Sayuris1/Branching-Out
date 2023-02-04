@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     public bool isGrabbing;
+    private int allSticksCount = 0;
 
     private void Awake()
     {
@@ -31,6 +32,8 @@ public class PlayerController : MonoBehaviour
     {
         _stick = GetComponent<Stick>();
         _rigitBody = GetComponent<Rigidbody2D>();
+
+        allSticksCount = FindObjectsOfType<Stick>().Length;
     }
 
     private void FixedUpdate()
@@ -54,6 +57,14 @@ public class PlayerController : MonoBehaviour
         }
 
         _expandCooldownTimer -= Time.deltaTime;
+       SetMusicVolume();
+    }
+
+    private void SetMusicVolume()
+    {
+        int myStickCount = _stick.GetAllChilds().Count;
+        myStickCount++;
+        LayeredMusicPlayer.Instance.musicPercent = myStickCount / (float)allSticksCount;
     }
 
     private void Expand()
