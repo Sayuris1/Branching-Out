@@ -31,6 +31,7 @@ public class LayeredMusicPlayer : MonoBehaviour
 
             source.clip = audioClip;
             source.outputAudioMixerGroup = mixerGroup;
+            source.loop = true;
             source.Play();
             _sources.Add(source);
         }
