@@ -13,7 +13,6 @@ public class Jumper : MonoBehaviour
     private void Start()
     {
         _cooldownCurrent = _cooldownStart;
-        GetComponentInChildren<Animator>().SetBool("idle", true);
     }
 
     private void Update()
@@ -24,8 +23,7 @@ public class Jumper : MonoBehaviour
             _cooldownCurrent = _cooldownStart;
             if(_isJump)
             {
-                Debug.Log("ASdASD");
-                GetComponentInChildren<Animator>().SetBool("idle", false);
+                GetComponentInChildren<Animator>().SetBool("jump", true);
                 PlayerController.Instance.Expand(transform.position, _jumpForce);
             }
         }
@@ -34,17 +32,24 @@ public class Jumper : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log($"NAME {other.gameObject.name}  sitck {other.gameObject.GetComponent<Stick>().sticky}");
-        if(other.gameObject.CompareTag("Stickable") && _isJump && other.gameObject.GetComponent<Stick>().sticky)
+        if(other.gameObject.CompareTag("Stickable") && other.gameObject.GetComponent<Stick>().sticky)
+        {
             _isJump = true;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        _isJump = true;
+        if(other.gameObject.CompareTag("Stickable") && other.gameObject.GetComponent<Stick>().sticky)
+            _isJump = true;
     }
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        _isJump = false;
+        if(other.gameObject.CompareTag("Stickable") && other.gameObject.GetComponent<Stick>().sticky)
+        {
+            _isJump = false;
+            GetComponentInChildren<Animator>().SetBool("jump", false);
+        }
     }
 }

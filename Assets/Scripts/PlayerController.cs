@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     {
         int myStickCount = _stick.GetAllChilds().Count;
         myStickCount++;
-        LayeredMusicPlayer.Instance.musicPercent = myStickCount / (float)allSticksCount;
+        //LayeredMusicPlayer.Instance.musicPercent = myStickCount / (float)allSticksCount;
     }
 
     public void Expand(Vector3 pos, float force)

@@ -104,7 +104,7 @@ public class Stick : MonoBehaviour
 
     public void StickToTarget(HingeJoint2D hinge, Stick target)
     {
-        grepAudio.Play();
+        //grepAudio.Play();
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);

@@ -201,7 +201,11 @@ MonoBehaviour:
   topHinge: {fileID: 643664607}
   bottomCol: {fileID: 643664605}
   bottomHinge: {fileID: 643664606}
-  childTorqueFactor: 1.02
+  childTorqueFactor: 0.99
+  moveAudio: {fileID: 0}
+  moveSounds: []
+  fullMoveAudioSoundSpeed: 0
+  grepAudio: {fileID: 0}
   childs: []
 --- !u!233 &643664607
 HingeJoint2D:
