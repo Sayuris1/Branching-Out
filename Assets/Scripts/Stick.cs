@@ -74,7 +74,10 @@ public class Stick : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, 0.2f);
         Gizmos.color = Color.yellow;
+        
         foreach (var child in _childs)
         {
             Gizmos.DrawLine(transform.position, child.transform.position);
