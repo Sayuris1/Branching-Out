@@ -31,7 +31,6 @@ public class Jumper : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log($"NAME {other.gameObject.name}  sitck {other.gameObject.GetComponent<Stick>().sticky}");
         if(other.gameObject.CompareTag("Stickable") && other.gameObject.GetComponent<Stick>().sticky)
         {
             _isJump = true;
