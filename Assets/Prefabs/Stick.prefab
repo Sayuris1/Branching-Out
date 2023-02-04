@@ -24,14 +24,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578606513}
-  m_LocalRotation: {x: -0, y: -0, z: 0.19895089, w: 0.98000944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.11951446, w: 0.99283254}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4798183, y: 1.4798183, z: 1.4798183}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2669010482690859001}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 13.728}
 --- !u!212 &578606515
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -194,15 +194,15 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.24}
-  m_ConnectedAnchor: {x: 7.6282, y: -1.1458378}
+  m_ConnectedAnchor: {x: 1.2379323, y: -0.0023287684}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -135
-    m_UpperAngle: -45
+    m_LowerAngle: -165
+    m_UpperAngle: -15
 --- !u!233 &643664606
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -218,15 +218,15 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.24}
-  m_ConnectedAnchor: {x: 7.6282, y: -1.6258378}
+  m_ConnectedAnchor: {x: 1.1663493, y: 0.4723035}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 135
-    m_UpperAngle: 45
+    m_LowerAngle: -165
+    m_UpperAngle: -15
 --- !u!58 &643664605
 CircleCollider2D:
   m_ObjectHideFlags: 0
