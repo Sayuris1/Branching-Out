@@ -20,7 +20,7 @@ public class Stick : MonoBehaviour
 
     [SerializeField] private float childTorqueFactor = 1f;
     
-    private List<Stick> _childs = new List<Stick>();
+    public List<Stick> childs = new List<Stick>();
     private JointMotor2D _topMotor;
     private JointMotor2D _bottomMotor;
 
@@ -34,6 +34,20 @@ public class Stick : MonoBehaviour
     private void Start()
     {
         SetSticky(startSticky);
+    }
+
+    public List<Stick> GetAllChilds()
+    {
+        List<Stick> newChilds = new List<Stick>();
+        newChilds.AddRange(childs);
+        foreach (var child in childs)
+            newChilds.AddRange(child.GetAllChilds());
+        return newChilds;
+    }
+
+    public void AddForce(Vector3 force)
+    {
+        _rb.AddForce(force);
     }
 
     private void FixedUpdate()
@@ -61,7 +75,7 @@ public class Stick : MonoBehaviour
 
         topCol.enabled = sticky;
         bottomCol.enabled = sticky;
-        capsuleCol.enabled = !sticky;
+        // capsuleCol.enabled = !sticky;
     }
 
     public void OnSomeoneStick(Stick parent)
@@ -75,13 +89,15 @@ public class Stick : MonoBehaviour
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);
-        ParticleManager.Instance.Play(0, transform.TransformPoint(hinge.anchor));
-        _childs.Add(target);
+        Vector2 hingeConnectPoint = transform.TransformPoint(hinge.anchor);
+        ParticleManager.Instance.Play(0, hingeConnectPoint);
+        // target.transform.position = hingeConnectPoint;
+        childs.Add(target);
     }
 
     public bool IsChildOfThis(Stick stick)
     {
-        foreach (var child in _childs)
+        foreach (var child in childs)
         {
             if (stick == child || child.IsChildOfThis(stick))
                 return true;
@@ -93,7 +109,7 @@ public class Stick : MonoBehaviour
     public void AddTorque(float torque)
     {
         _rb.AddTorque(torque);
-        foreach (var child in _childs)
+        foreach (var child in childs)
         {
             child.AddTorque(torque * childTorqueFactor);
         }
@@ -105,7 +121,7 @@ public class Stick : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, 0.2f);
         Gizmos.color = Color.yellow;
         
-        foreach (var child in _childs)
+        foreach (var child in childs)
         {
             Gizmos.DrawLine(transform.position, child.transform.position);
         }
@@ -133,10 +149,7 @@ public class Stick : MonoBehaviour
         if (!target)
             return;
         if (!CanConnectToCollider(col.otherCollider, target))
-        {
-            Debug.Log("Can connect but its my relative");
             return;
-        }
         if (!topHinge.connectedBody && col.otherCollider == topCol)
             StickToTarget(topHinge, target);
         else if (!bottomHinge.connectedBody && col.otherCollider == bottomCol)

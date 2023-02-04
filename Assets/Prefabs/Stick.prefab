@@ -157,8 +157,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.023315191, y: 0.03615567}
-  m_Size: {x: 0.37061548, y: 0.91702074}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.12, y: 0.91702074}
   m_Direction: 0
 --- !u!114 &643664603
 MonoBehaviour:
@@ -195,8 +195,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0.24}
-  m_ConnectedAnchor: {x: -0.9642085, y: 1.2126839}
+  m_Anchor: {x: 0, y: 0.36}
+  m_ConnectedAnchor: {x: 0.90707535, y: -0.50898045}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -219,8 +219,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: -0.24}
-  m_ConnectedAnchor: {x: 1.1663493, y: 0.4723035}
+  m_Anchor: {x: 0, y: -0.4}
+  m_ConnectedAnchor: {x: 0.8499163, y: 0.24886715}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -242,7 +242,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.39}
+  m_Offset: {x: 0, y: -0.51}
   serializedVersion: 2
   m_Radius: 0.05
 --- !u!58 &643664604
@@ -258,6 +258,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.35}
+  m_Offset: {x: 0, y: 0.51}
   serializedVersion: 2
   m_Radius: 0.05
