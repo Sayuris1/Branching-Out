@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 578606515, guid: 060a0a6cff512884f82c5c3b1ab0760a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    - target: {fileID: 643664603, guid: 060a0a6cff512884f82c5c3b1ab0760a, type: 3}
+      propertyPath: startSticky
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2669010482690859001, guid: 060a0a6cff512884f82c5c3b1ab0760a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -74,4 +82,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ecb8123cd106f49a1ce7f87e3f5512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceToAdd: 0
+  _forceToAdd: 6
