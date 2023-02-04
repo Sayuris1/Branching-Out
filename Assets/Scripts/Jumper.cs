@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jumper : MonoBehaviour
 {
-    [SerializeField] private bool _isJump = true;
+    [SerializeField] private bool _isJump = false;
     [SerializeField] private float _cooldownStart = 2;
     [SerializeField] private float _jumpForce = 400;
     private float _cooldownCurrent = 2;

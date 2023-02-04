@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: 84806d676389bbf458d2c7270cb8aad4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: solucan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed373614f4b9d04ab35fb5edcf9eafe
+      internalID: 448899781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58631dc93e102c4da072106bf6e02ca
+      internalID: 829024796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ace72bc2c30194bacc913e9678489c
+      internalID: 1459956587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33e175aaf7b23c4ea9a60d33ef68f06
+      internalID: 339103350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_4
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99296a6f01ebe544b83614baa034680b
+      internalID: -617756264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_5
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939800f15ae738c458e6552ad4c9e7fb
+      internalID: -1758667444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_6
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2128
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f6609ef9d8c34e94cb5345b6fe875
+      internalID: 231484559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829efb6f55817f458f42a4682c19005
+      internalID: -1043917256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743b7363bd020a4bb412ac3d5b93492
+      internalID: 800348094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff580c05056edf24095129489d84b602
+      internalID: 1993801394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_10
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1cd12eb3d2ce64aa703fcda5da1392
+      internalID: -1039241561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_11
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c214b664b834fbb4fa25fd15ef81fbed
+      internalID: -567582998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_12
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a33bb7ebd57ab4d8704fadfcf7ffb0
+      internalID: -502821653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_13
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1862
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a584e29686ca034698b619f3645bef7
+      internalID: -20486863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc4ae1776f6044ca4df717d6a1191c
+      internalID: 1440130394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf38472c4e2fe4bafb9b0a6602a754
+      internalID: 588460743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_16
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52c6a64dd872b74f9f372087d3c3f5c
+      internalID: 858454253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_17
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb9bcddbbe45e44bae18925b01a788
+      internalID: -203934795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_18
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb79f6af8356c84a92280c935509d4f
+      internalID: 2031832308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_19
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6a5fcddee30be409c628ad3ee9dbab
+      internalID: 680868918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_20
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1596
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709e83e6d17bcef45b8a2630429cf861
+      internalID: 976687579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301365ca15a56404296968189fbe297d
+      internalID: -1824652283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_22
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4bd349d165d244a1b6fb9a78a12c8
+      internalID: -2104129769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_23
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106da8709cb0a6b42bdbd06b8e3ae593
+      internalID: -976543514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_24
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f2d0c6c7d1c5a4b83f0a7346a85556
+      internalID: -1714351832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_25
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe47d0bd2a462bf47a1205097aa491bf
+      internalID: 240494981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_26
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d903c613d6c494e8e90ee17bcbf2f6
+      internalID: 1686682215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_27
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1330
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fbc54841887724fa1065ec8c9896da
+      internalID: 1714192029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b7e0b1bf164b49a729e10d48b0fca
+      internalID: 1729575179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1fbf0248331f648a95d981dc7eb5cb
+      internalID: -1056812772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_30
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c63713dd6d3ac46bc25b4b6794b72d
+      internalID: 420366942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_31
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d5da80a797c2f4080588ede11b4be6
+      internalID: -581471227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_32
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aafa23febd34148bdb66a45c31f772
+      internalID: 2133508290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_33
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9465cf429391cfe4fafb91268866d7a2
+      internalID: -1923173217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_34
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1064
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1639b537ffd55745992e28081db7f55
+      internalID: 858206613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051923f654bd384f96a728cc5d22e27
+      internalID: -278660935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_36
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ad111c0aa35b3439efc06b91524588
+      internalID: 963515164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_37
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d4ef9877a5df4eb323bfc0eda0f1f
+      internalID: 1383681587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_38
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f2dbba90a2f91409b3bda137b93816
+      internalID: 2090467990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_39
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ed6679db4289468cb85003d3e266b
+      internalID: -2081653594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_40
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768dfa160c8dd3429d235f6740ced8f
+      internalID: 1057403643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_41
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 798
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123c1065d779d6e469b9bfd05365f815
+      internalID: -1680169989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf01328053502024bbadd8396767d585
+      internalID: -951481744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_43
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2993cde124ed7cf45a2c03153d4d55e9
+      internalID: -1264251494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_44
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba65a6bb7f7ddd4419b2bdc8a0768c07
+      internalID: 1964070111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_45
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a91560adf6af14eb1833a7a3f7ff28
+      internalID: 1689644654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_46
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f67b1e4f8fcedb4e9e3ad5d38886688
+      internalID: -2126937695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_47
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed7e7baa7c10f43929464cc2cc3d3e
+      internalID: -1526927503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_48
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 532
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc232dfc11ca2243905f358312f2704
+      internalID: -1917094091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcacec254227a94ea01daf8882c77b8
+      internalID: 1502440279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_50
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8defe35250669d245a8d92436f34945d
+      internalID: 1004251962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_51
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4f1d777749f846816739563e1e952
+      internalID: 734610781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_52
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf66c84f01bd44c979204e9aab1c26
+      internalID: 1576301268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_53
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f048847833ecd47bdd94d6e172beba
+      internalID: 515673611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_54
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18514847492eece4daccf279ab83863e
+      internalID: -153010318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_55
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 266
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cbd9bf8ff60244da8c8bdc5f766d97
+      internalID: 1767864231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ac7f561336024391240057cdf2d21
+      internalID: 1917615762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_57
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05c35cd3546d7945937fce5673f2c32
+      internalID: 1621124471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_58
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc3a395e9b1dbd4e85ddfeafa6c7a13
+      internalID: 1747981940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_59
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5db70eaf43ad124abe3fcb65f123090
+      internalID: 749432310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solucan_60
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 332
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76fd82d0ffb7b54999895f795f4c7ba
+      internalID: -1759294776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      solucan_37: 1383681587
+      solucan_39: -2081653594
+      solucan_25: 240494981
+      solucan_18: 2031832308
+      solucan_26: 1686682215
+      solucan_13: -20486863
+      solucan_12: -502821653
+      solucan_43: -1264251494
+      solucan_46: -2126937695
+      solucan_8: 800348094
+      solucan_24: -1714351832
+      solucan_22: -2104129769
+      solucan_28: 1729575179
+      solucan_44: 1964070111
+      solucan_51: 734610781
+      solucan_1: 829024796
+      solucan_0: 448899781
+      solucan_6: 231484559
+      solucan_27: 1714192029
+      solucan_48: -1917094091
+      solucan_45: 1689644654
+      solucan_35: -278660935
+      solucan_59: 749432310
+      solucan_53: 515673611
+      solucan_57: 1621124471
+      solucan_58: 1747981940
+      solucan_30: 420366942
+      solucan_4: -617756264
+      solucan_60: -1759294776
+      solucan_20: 976687579
+      solucan_15: 588460743
+      solucan_21: -1824652283
+      solucan_36: 963515164
+      solucan_3: 339103350
+      solucan_29: -1056812772
+      solucan_19: 680868918
+      solucan_2: 1459956587
+      solucan_5: -1758667444
+      solucan_7: -1043917256
+      solucan_40: 1057403643
+      solucan_50: 1004251962
+      solucan_41: -1680169989
+      solucan_34: 858206613
+      solucan_56: 1917615762
+      solucan_14: 1440130394
+      solucan_42: -951481744
+      solucan_17: -203934795
+      solucan_47: -1526927503
+      solucan_49: 1502440279
+      solucan_33: -1923173217
+      solucan_55: 1767864231
+      solucan_23: -976543514
+      solucan_11: -567582998
+      solucan_54: -153010318
+      solucan_32: 2133508290
+      solucan_16: 858454253
+      solucan_10: -1039241561
+      solucan_38: 2090467990
+      solucan_52: 1576301268
+      solucan_31: -581471227
+      solucan_9: 1993801394
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
