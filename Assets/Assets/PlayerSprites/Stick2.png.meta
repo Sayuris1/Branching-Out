@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 726b521de770d4091bd526b87e9ddc92
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stick2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c2c2a335524fbe9c2644a1cc071be
+      internalID: -104529949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74242eddc3174441b983e898640f7371
+      internalID: 2092355622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd068955439674dd89ff25e4ad09a65c
+      internalID: -1592795398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462b26b7a6cb4cc2a803ed8f7178119
+      internalID: 1473860206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846db7d0f847452d89b6238eb578af2
+      internalID: 779717754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 813.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b4ddac3c4ad45b8974b2aa018094f9
+      internalID: 1140021931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e46ce36fd3584982ac07171dbf4482d
+      internalID: 1592608858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acdc042fc46e480da01646a6413f48f
+      internalID: 141719925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693465b3c9a294afdb5821cf9a7f378a
+      internalID: 518871122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_9
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3318b512317034960a66423955ba6f5a
+      internalID: 975136721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_10
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a16e196f88ca4b15aa27d62b4aca4a2
+      internalID: -2214075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_11
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 610.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923b2e060afc942c0b9d9dac80bb4912
+      internalID: -592935675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6170c8c848938463bb2a0acd23454669
+      internalID: -2097826073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0635d430e64b2cbb70448d6859ba7
+      internalID: 1803687652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbfd4097a0b340cfa33d7cdf8a92dd2
+      internalID: -578118489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_15
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124b5e3f60254664b35612b2ad16910
+      internalID: 1152954301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2aff0cbdab54508ace0b2a43cd2e5f
+      internalID: 2092529964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_17
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 407.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4538a14cfb05f4cfb9188abd469cdb7b
+      internalID: -239508432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615fa06a4f2894941b99229acb7ae080
+      internalID: 1561682187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5100eeabdbbd4ac6b507d4f6765e530
+      internalID: -1561054639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75d929cca49243adb96dd5b4d935392
+      internalID: 927452715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_21
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d6a3bf8e432420a88a85dc17cc9838
+      internalID: -1440093828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_22
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc2f278da6b42e289bccbd58682d58
+      internalID: -1173430628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_23
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 204.6
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30927095f65454ebe0d0aa49e3982e
+      internalID: 99520214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ab8763716ff450e9c998227fd1c373
+      internalID: 1457602497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f990c82ac74b05b6affa3f0665222
+      internalID: -2102702878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_26
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a2188e5393348d19352bc7f2b0dd8d
+      internalID: -1834482935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_27
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061c6ea831504ca4b78f7cb78eadd8f
+      internalID: 1232402919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_28
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e6785b2f20445fa8bf56fced5af0a3
+      internalID: -1707649633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stick2_29
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1.6000061
+        width: 203.33333
+        height: 203.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b78f46b80e0d4383bb04093638b0df6
+      internalID: -1194351466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stick2_9: 975136721
+      Stick2_20: 927452715
+      Stick2_16: 2092529964
+      Stick2_4: 779717754
+      Stick2_13: 1803687652
+      Stick2_14: -578118489
+      Stick2_10: -2214075
+      Stick2_1: 2092355622
+      Stick2_2: -1592795398
+      Stick2_8: 518871122
+      Stick2_22: -1173430628
+      Stick2_7: 141719925
+      Stick2_19: -1561054639
+      Stick2_26: -1834482935
+      Stick2_27: 1232402919
+      Stick2_6: 1592608858
+      Stick2_11: -592935675
+      Stick2_21: -1440093828
+      Stick2_0: -104529949
+      Stick2_23: 99520214
+      Stick2_24: 1457602497
+      Stick2_25: -2102702878
+      Stick2_18: 1561682187
+      Stick2_28: -1707649633
+      Stick2_29: -1194351466
+      Stick2_5: 1140021931
+      Stick2_17: -239508432
+      Stick2_15: 1152954301
+      Stick2_3: 1473860206
+      Stick2_12: -2097826073
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
