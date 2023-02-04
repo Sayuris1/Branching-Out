@@ -15,11 +15,6 @@ public class PlayerController : MonoBehaviour
     private float _expandCooldownTimer = 0;
     [SerializeField] private float maxExpandMult = 2f;
 
-    
-
-    
-    
-
     #region Life Cycle
     private void Start()
     {
@@ -71,7 +66,6 @@ public class PlayerController : MonoBehaviour
             child.AddForce(force * expansionForce);
         }
     }
-
     #endregion
 
     #region Movement
