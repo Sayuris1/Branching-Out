@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d55f392799b54e4097428e00d14e068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isJump: 1
+  _isJump: 0
   _cooldownStart: 2
   _jumpForce: 400
 --- !u!61 &4271916912282198046
@@ -148,7 +148,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -181585379, guid: cd6d20149be2f3e4cb92d71eaca0fdee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
