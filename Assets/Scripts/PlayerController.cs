@@ -55,7 +55,6 @@ public class PlayerController : MonoBehaviour
         List<Stick> childs = new List<Stick>();
         childs.Add(_stick);
         childs.AddRange(_stick.GetAllChilds());
-        Debug.Log(childs.Count);
         Vector3 center = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
         // foreach (var child in childs)
