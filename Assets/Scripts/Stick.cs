@@ -10,6 +10,7 @@ public class Stick : MonoBehaviour
     public bool sticky = false;
     [SerializeField] private bool startSticky;
     [SerializeField] private float defaultAngleForce;
+    [SerializeField] private List<Sprite> _randList;
     
     private Rigidbody2D _rb;
     [SerializeField] private CapsuleCollider2D capsuleCol;
@@ -35,6 +36,8 @@ public class Stick : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _topMotor = topHinge.motor;
         _bottomMotor = bottomHinge.motor;
+
+        GetComponentInChildren<SpriteRenderer>().sprite = _randList[Random.Range(0, _randList.Count)];
     }
 
     private void Start()
@@ -111,6 +114,7 @@ public class Stick : MonoBehaviour
         Vector2 hingeConnectPoint = transform.TransformPoint(hinge.anchor);
         ParticleManager.Instance.Play(0, hingeConnectPoint);
         // target.transform.position = hingeConnectPoint;
+        PlayerController.Instance.AddToOrthoScale();
         childs.Add(target);
     }
 

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float grabBoost = 2f;
 
     [SerializeField] private float expansionForce = 10f;
+    [SerializeField] private float _addOrthoValuePerRoot = 1f;
 
     private Rigidbody2D _rigitBody;
     private Stick _stick;
@@ -20,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController Instance;
     public bool isGrabbing;
     private int allSticksCount = 0;
+
+    private float _currentOrthoScale;
 
     private void Awake()
     {
@@ -33,6 +37,13 @@ public class PlayerController : MonoBehaviour
         _rigitBody = GetComponent<Rigidbody2D>();
 
         allSticksCount = FindObjectsOfType<Stick>().Length;
+
+        _currentOrthoScale = (CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize;
+    }
+
+    public void AddToOrthoScale()
+    {
+        _currentOrthoScale += _addOrthoValuePerRoot;
     }
 
     private void FixedUpdate()
@@ -57,6 +68,9 @@ public class PlayerController : MonoBehaviour
 
         _expandCooldownTimer -= Time.deltaTime;
        SetMusicVolume();
+
+        (CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize = 
+            Mathf.Lerp((CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize, _currentOrthoScale, 0.001f);
     }
 
     private void SetMusicVolume()
