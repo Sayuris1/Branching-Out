@@ -7,14 +7,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _forceToAdd;
 
     private Rigidbody2D _rigitBody;
+    private Stick _stick;
+    
 
     #region Life Cycle
     private void Start()
     {
+        _stick = GetComponent<Stick>();
         _rigitBody = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.A))
         {
@@ -26,24 +29,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag != "Stickable")
-            return;
-
-
-        HingeJoint2D addedJoint =  collision.gameObject.AddComponent<HingeJoint2D>();
-        addedJoint.connectedBody = _rigitBody;
-        addedJoint.enableCollision = true;
-        addedJoint.anchor = collision.contacts[0].point;
-        addedJoint.connectedAnchor = collision.contacts[0].point;
-    }
     #endregion
 
     #region Movement
     private void AddForce(float force)
     {
-        _rigitBody.AddTorque(force);
+        _stick.AddTorque(force);
     }
     #endregion
 }
