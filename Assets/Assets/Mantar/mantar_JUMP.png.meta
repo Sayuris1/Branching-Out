@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2eea464d898c4d8599911995be3c1a4
+guid: 9d127bb8cf23dbb42bcba27b216c2db9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,631 +104,715 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stick1_0
+      name: mantar_JUMP_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5000
-        width: 1000
-        height: 1000
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62bd2b5de251c4b2b861c28c27343222
-      internalID: -721344451
+      spriteID: 3d29e237a82635f4b92fe0b1ef23aa30
+      internalID: 1455992164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_1
+      name: mantar_JUMP_1
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 400
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6971f172caa44e6bb91be46675719e3
-      internalID: 1134971324
+      spriteID: aad42e13597c0d543abf169f7c45c0e9
+      internalID: -382971377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_2
+      name: mantar_JUMP_2
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 800
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687513e7876724bc1be0295c5f071e0d
-      internalID: 1843299638
+      spriteID: c6b0e318a50dc1a40b0b3fd4e41154f7
+      internalID: -2119133048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_3
+      name: mantar_JUMP_3
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 1200
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda741149b1994bf1a761d7c6cd94459
-      internalID: 843117420
+      spriteID: 706fde5c6f3308144b723f0c71c28043
+      internalID: 877225166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_4
+      name: mantar_JUMP_4
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 1600
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ebb0653f9cd4cc1932c9e80cc1ff7d
-      internalID: 484822329
+      spriteID: 4afd8011d728b964e8ac75dfe067457f
+      internalID: 844317649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39ffbc10fd770412d86a02c751dcf6cb
-      internalID: 950499924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_6
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b188a92f271b4813ab28e638d79b52d
-      internalID: 650157971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_7
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78faec2db639844f9902017ed40c2e17
-      internalID: -1584281064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_8
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14d9f9759679a4646863f9bd05c718a0
-      internalID: -972046342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_9
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f2bb4a39cc7a4411b6a8d318f9cd99a
-      internalID: -1873854575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13d4be232779d417a921d1dfa8686db8
-      internalID: -1882861937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_11
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba681a003312145e5b83269dffad2650
-      internalID: -265029766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_12
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81b7d61535d6045eda4a77e28aefffef
-      internalID: -994184462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_13
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dc3ed9c1914e4603b6c78a39c76b8af
-      internalID: 1596741802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_14
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c3f34654fec142bda658908eb9eff8b
-      internalID: 215112321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_15
+      name: mantar_JUMP_5
       rect:
         serializedVersion: 2
         x: 0
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70753b68bc5284221aecfa40fa3d2951
-      internalID: 1522011794
+      spriteID: 25e1986fede53ca4297e85c75b4ecfe0
+      internalID: 1641875403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_16
+      name: mantar_JUMP_6
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 400
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8797f25a6a14102afd0d3473a87a3a
-      internalID: -1664776786
+      spriteID: 94e6019feb34aba489c19ebdea9b13e9
+      internalID: -931350779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_17
+      name: mantar_JUMP_7
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 2000
-        width: 1000
-        height: 1000
+        x: 806
+        y: 1997
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b9dab2c6490944cbbd368f1e5a521a0
-      internalID: 1046811952
+      spriteID: 823b890d07225404da752e1c1c410574
+      internalID: -1149987216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_18
+      name: mantar_JUMP_8
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 1200
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3fd5636a6094e74a466d905a310089
-      internalID: 891415106
+      spriteID: 245760c22b7b4394c88dbd12f6b5e0fe
+      internalID: -790190309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_19
+      name: mantar_JUMP_9
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 1600
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460aed027733a4d6a898b09c7d451c4c
-      internalID: 609822974
+      spriteID: 3d1294d0a4524244099b813231266337
+      internalID: -504377818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_20
+      name: mantar_JUMP_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 1000
-        height: 1000
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcfa4606027884614bf8bd5c866ae35a
-      internalID: -1519164225
+      spriteID: 609727e166a70ce4eb41fae04a8575aa
+      internalID: -602709862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_21
+      name: mantar_JUMP_11
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 400
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8fb7efdd74046d796b4aa720262afd
-      internalID: 551406965
+      spriteID: 385e08b8221d14e4db47a841b26e209f
+      internalID: 1630626407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_22
+      name: mantar_JUMP_12
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 800
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f236e77f69be643faa12e9b5b222b3a6
-      internalID: -1189611084
+      spriteID: 0a7eff28ece469443a3a77e261556166
+      internalID: 1227110567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_23
+      name: mantar_JUMP_13
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 1200
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbcb6ee2adf4a49c0a7bc34b499a9020
-      internalID: 1861833231
+      spriteID: 2c63c4b99c39bb349a612457fd7d64a0
+      internalID: -1091253351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_24
+      name: mantar_JUMP_14
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 1600
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ae76328f62334cbfb7a6c28947ad5e6
-      internalID: -6288928
+      spriteID: 612b639bb572eef4daf6f4fb1b1f21aa
+      internalID: -1185322483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_25
+      name: mantar_JUMP_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026847bcf0c4f0447a2912845359f426
+      internalID: -1271445823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f0d5811c10363478882c0401812e27
+      internalID: -722808380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d5dbf697e26ce4d8900e662581ebe6
+      internalID: 2038135558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc68427fd027034f93eed4372e1568c
+      internalID: 2088139246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f967c0a7127704a9be231477d91298
+      internalID: -1385563077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2fe54b0d518b46b2e1142c47d0a20
+      internalID: -473078522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dde499c73db1ce479715ec6594e1603
+      internalID: 1632590314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23637867089497439b46004eacd4817
+      internalID: 932206479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_23
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50e353ba5cc3f745a846e4e39e439fd
+      internalID: 122532154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4019bb8604b62654ba2030e398dfda28
+      internalID: -1287831030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1688be4a2e62e1a40918d50fc3793217
+      internalID: -911027317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_26
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e935b1d88c1428439205cf3ec1c0d9b
+      internalID: -681523719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_27
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d9549425bbe7409120934e827c6eb
+      internalID: 823390192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f1b68ec0f6dd4b86e6f41e2bdbb6c
+      internalID: -1644397721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_JUMP_29
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668e24bf07692420d8e7c02565bfde4a
-      internalID: 304962585
+      spriteID: 4038fc4be62c5a641a91478f2ed42b44
+      internalID: 79812597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_26
+      name: mantar_JUMP_30
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 400
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12fac09274d8b4fe1b06b59242aaea10
-      internalID: -1714363373
+      spriteID: f2132c60edf95004b802935bbcc44d7e
+      internalID: 2018010913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_27
+      name: mantar_JUMP_31
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 800
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 534063c78613048439b1b3303684700b
-      internalID: 1542428413
+      spriteID: 4a093ba31bfa44747a8dd985e6b3513e
+      internalID: 344886432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_28
+      name: mantar_JUMP_32
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 1200
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8083d9c6828764467ba3afe714b19996
-      internalID: -1346966710
+      spriteID: e7a4f1539b5d2af4eb585990b7c0ddfa
+      internalID: 599763314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_29
+      name: mantar_JUMP_33
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 1600
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f0237cb0f5642fbaf5acbdc239bd6b
-      internalID: 121573581
+      spriteID: 864310ab250b2b44b84abdf079369669
+      internalID: -1794897390
       vertices: []
       indices: 
       edges: []
@@ -744,36 +828,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stick1_16: -1664776786
-      Stick1_27: 1542428413
-      Stick1_0: -721344451
-      Stick1_1: 1134971324
-      Stick1_7: -1584281064
-      Stick1_4: 484822329
-      Stick1_9: -1873854575
-      Stick1_8: -972046342
-      Stick1_11: -265029766
-      Stick1_13: 1596741802
-      Stick1_3: 843117420
-      Stick1_18: 891415106
-      Stick1_24: -6288928
-      Stick1_5: 950499924
-      Stick1_22: -1189611084
-      Stick1_14: 215112321
-      Stick1_17: 1046811952
-      Stick1_10: -1882861937
-      Stick1_20: -1519164225
-      Stick1_23: 1861833231
-      Stick1_2: 1843299638
-      Stick1_12: -994184462
-      Stick1_6: 650157971
-      Stick1_21: 551406965
-      Stick1_26: -1714363373
-      Stick1_28: -1346966710
-      Stick1_29: 121573581
-      Stick1_15: 1522011794
-      Stick1_19: 609822974
-      Stick1_25: 304962585
+      mantar_JUMP_28: -1644397721
+      mantar_JUMP_24: -1287831030
+      mantar_JUMP_18: 2088139246
+      mantar_JUMP_19: -1385563077
+      mantar_JUMP_22: 932206479
+      mantar_JUMP_26: -681523719
+      mantar_JUMP_4: 844317649
+      mantar_JUMP_9: -504377818
+      mantar_JUMP_25: -911027317
+      mantar_JUMP_8: -790190309
+      mantar_JUMP_6: -931350779
+      mantar_JUMP_29: 79812597
+      mantar_JUMP_5: 1641875403
+      mantar_JUMP_31: 344886432
+      mantar_JUMP_2: -2119133048
+      mantar_JUMP_23: 122532154
+      mantar_JUMP_11: 1630626407
+      mantar_JUMP_12: 1227110567
+      mantar_JUMP_16: -722808380
+      mantar_JUMP_15: -1271445823
+      mantar_JUMP_3: 877225166
+      mantar_JUMP_7: -1149987216
+      mantar_JUMP_21: 1632590314
+      mantar_JUMP_33: -1794897390
+      mantar_JUMP_14: -1185322483
+      mantar_JUMP_1: -382971377
+      mantar_JUMP_10: -602709862
+      mantar_JUMP_27: 823390192
+      mantar_JUMP_17: 2038135558
+      mantar_JUMP_13: -1091253351
+      mantar_JUMP_32: 599763314
+      mantar_JUMP_0: 1455992164
+      mantar_JUMP_20: -473078522
+      mantar_JUMP_30: 2018010913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

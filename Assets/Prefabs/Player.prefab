@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: startSticky
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 643664603, guid: 060a0a6cff512884f82c5c3b1ab0760a, type: 3}
+      propertyPath: childTorqueFactor
+      value: 1.002
+      objectReference: {fileID: 0}
     - target: {fileID: 643664606, guid: 060a0a6cff512884f82c5c3b1ab0760a, type: 3}
       propertyPath: m_AngleLimits.m_LowerAngle
       value: -80
@@ -94,4 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ecb8123cd106f49a1ce7f87e3f5512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceToAdd: 6
+  _forceToAdd: 23
+  grabBoost: 2
+  expansionForce: 500
+  expandCooldownTime: 5
+  maxExpandMult: 2
+  isGrabbing: 0

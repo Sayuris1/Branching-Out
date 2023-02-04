@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2eea464d898c4d8599911995be3c1a4
+guid: cd6d20149be2f3e4cb92d71eaca0fdee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stick1_0
+      name: mantar_IDLE_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5000
-        width: 1000
-        height: 1000
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62bd2b5de251c4b2b861c28c27343222
-      internalID: -721344451
+      spriteID: 52301e109ebedda488035f72dfb81bfa
+      internalID: -181585379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_1
+      name: mantar_IDLE_1
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 400
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6971f172caa44e6bb91be46675719e3
-      internalID: 1134971324
+      spriteID: 7a122b96a015adf44ac0ad46589fa742
+      internalID: -895653824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_2
+      name: mantar_IDLE_2
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 800
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687513e7876724bc1be0295c5f071e0d
-      internalID: 1843299638
+      spriteID: 12357d493c726234f926254e1804198b
+      internalID: -1642533644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_3
+      name: mantar_IDLE_3
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 1200
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda741149b1994bf1a761d7c6cd94459
-      internalID: 843117420
+      spriteID: a7c63e793d8f2e247b93259ae20bf3e0
+      internalID: -414880836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_4
+      name: mantar_IDLE_4
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 5000
-        width: 1000
-        height: 1000
+        x: 1600
+        y: 2400
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,230 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ebb0653f9cd4cc1932c9e80cc1ff7d
-      internalID: 484822329
+      spriteID: 08b0ac47531c524499b5dbe9d94f82fd
+      internalID: 1746775445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39ffbc10fd770412d86a02c751dcf6cb
-      internalID: 950499924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_6
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b188a92f271b4813ab28e638d79b52d
-      internalID: 650157971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_7
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78faec2db639844f9902017ed40c2e17
-      internalID: -1584281064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_8
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14d9f9759679a4646863f9bd05c718a0
-      internalID: -972046342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_9
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 4000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f2bb4a39cc7a4411b6a8d318f9cd99a
-      internalID: -1873854575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13d4be232779d417a921d1dfa8686db8
-      internalID: -1882861937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_11
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba681a003312145e5b83269dffad2650
-      internalID: -265029766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_12
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81b7d61535d6045eda4a77e28aefffef
-      internalID: -994184462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_13
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dc3ed9c1914e4603b6c78a39c76b8af
-      internalID: 1596741802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_14
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 3000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c3f34654fec142bda658908eb9eff8b
-      internalID: 215112321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stick1_15
+      name: mantar_IDLE_5
       rect:
         serializedVersion: 2
         x: 0
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70753b68bc5284221aecfa40fa3d2951
-      internalID: 1522011794
+      spriteID: a18008f65478352498557803913c0a69
+      internalID: -1634905949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_16
+      name: mantar_IDLE_6
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 400
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8797f25a6a14102afd0d3473a87a3a
-      internalID: -1664776786
+      spriteID: f5279a301cccac94082a9d1121fa3aed
+      internalID: -501101328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_17
+      name: mantar_IDLE_7
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 800
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b9dab2c6490944cbbd368f1e5a521a0
-      internalID: 1046811952
+      spriteID: 6d1504a4cc1cc444491cda35869c8674
+      internalID: 1156368654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_18
+      name: mantar_IDLE_8
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 1200
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3fd5636a6094e74a466d905a310089
-      internalID: 891415106
+      spriteID: 40cd4f236ffc4e242848a55a86d331ef
+      internalID: 514402320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_19
+      name: mantar_IDLE_9
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 1600
         y: 2000
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460aed027733a4d6a898b09c7d451c4c
-      internalID: 609822974
+      spriteID: 0a1525b4b10ac7740bbaeacfd81b4fc3
+      internalID: 1264651662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_20
+      name: mantar_IDLE_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 1000
-        height: 1000
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcfa4606027884614bf8bd5c866ae35a
-      internalID: -1519164225
+      spriteID: 0d44ef7d9cf385f4a8d40547453edaf7
+      internalID: -935525225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_21
+      name: mantar_IDLE_11
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 400
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8fb7efdd74046d796b4aa720262afd
-      internalID: 551406965
+      spriteID: e38d113bfc755c2449ef43823c9b03c1
+      internalID: 523627662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_22
+      name: mantar_IDLE_12
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 800
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f236e77f69be643faa12e9b5b222b3a6
-      internalID: -1189611084
+      spriteID: 11e7aef823acd824198ed12443158054
+      internalID: 1945547582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_23
+      name: mantar_IDLE_13
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 1200
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,20 +391,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbcb6ee2adf4a49c0a7bc34b499a9020
-      internalID: 1861833231
+      spriteID: 1ddcbbbaa499f2c4bba7bc08a779c5d3
+      internalID: 1797954410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_24
+      name: mantar_IDLE_14
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 1000
-        width: 1000
-        height: 1000
+        x: 1600
+        y: 1600
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,20 +412,335 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ae76328f62334cbfb7a6c28947ad5e6
-      internalID: -6288928
+      spriteID: 40e70740ffaca124ba5376b4c02af916
+      internalID: -1736722920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_25
+      name: mantar_IDLE_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ecaee1f6d579147bc9c216260b8b1e
+      internalID: -1151416183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bac22bf572dbc419a0ad15606be07e
+      internalID: 61110486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d188cb3734c6484cbab0de74977bfa0
+      internalID: -557337858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5ae0730f5a0db4aa767437ac11f9e3
+      internalID: -1569800392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289ba2427553deb45857b6f84c2559e5
+      internalID: 1575136952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9399a46186db5b946b2afa99a9badc26
+      internalID: 1267908361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39b305ec1d9c644cbcd862cfe2486f5
+      internalID: -1461528243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49548cb780062ac4d9bc646df73c59e2
+      internalID: 1034061682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14d5d8695d20a643bf5aee24360691b
+      internalID: -529377299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_24
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af15a917b3723a0469ba29a5bd8ba43a
+      internalID: -353882916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036f5ccc988016f49a733c3e0800c45e
+      internalID: 1489193628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a5ce9f63e858b4c83bf30f69374345
+      internalID: 991113855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6434e5b89e645bf4aabb80ab5321e6de
+      internalID: 852605800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6fee05d8ed9440a636f988bbe009d
+      internalID: -243638688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e0839068acd6b488e923d5a4a64fc5
+      internalID: 796454951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantar_IDLE_30
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,20 +748,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668e24bf07692420d8e7c02565bfde4a
-      internalID: 304962585
+      spriteID: c3cd10c60cd9a0145b3da31e2ccb089a
+      internalID: 739237015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_26
+      name: mantar_IDLE_31
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 400
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,20 +769,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12fac09274d8b4fe1b06b59242aaea10
-      internalID: -1714363373
+      spriteID: b458da349daa5b54082c4aa067beeb31
+      internalID: 443578608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_27
+      name: mantar_IDLE_32
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 800
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,20 +790,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 534063c78613048439b1b3303684700b
-      internalID: 1542428413
+      spriteID: 5a4ee5f075dc67b4ca23e2b536a74722
+      internalID: -365890039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_28
+      name: mantar_IDLE_33
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 1200
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8083d9c6828764467ba3afe714b19996
-      internalID: -1346966710
+      spriteID: ae4625bcd2010f74a9cd754c40098807
+      internalID: 2042588225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick1_29
+      name: mantar_IDLE_34
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 1600
         y: 0
-        width: 1000
-        height: 1000
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,8 +832,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f0237cb0f5642fbaf5acbdc239bd6b
-      internalID: 121573581
+      spriteID: 4c40d74d6d7442741b23ff05c72897a7
+      internalID: -1545043597
       vertices: []
       indices: 
       edges: []
@@ -744,36 +849,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stick1_16: -1664776786
-      Stick1_27: 1542428413
-      Stick1_0: -721344451
-      Stick1_1: 1134971324
-      Stick1_7: -1584281064
-      Stick1_4: 484822329
-      Stick1_9: -1873854575
-      Stick1_8: -972046342
-      Stick1_11: -265029766
-      Stick1_13: 1596741802
-      Stick1_3: 843117420
-      Stick1_18: 891415106
-      Stick1_24: -6288928
-      Stick1_5: 950499924
-      Stick1_22: -1189611084
-      Stick1_14: 215112321
-      Stick1_17: 1046811952
-      Stick1_10: -1882861937
-      Stick1_20: -1519164225
-      Stick1_23: 1861833231
-      Stick1_2: 1843299638
-      Stick1_12: -994184462
-      Stick1_6: 650157971
-      Stick1_21: 551406965
-      Stick1_26: -1714363373
-      Stick1_28: -1346966710
-      Stick1_29: 121573581
-      Stick1_15: 1522011794
-      Stick1_19: 609822974
-      Stick1_25: 304962585
+      mantar_IDLE_21: -1461528243
+      mantar_IDLE_3: -414880836
+      mantar_IDLE_7: 1156368654
+      mantar_IDLE_27: 852605800
+      mantar_IDLE_30: 739237015
+      mantar_IDLE_16: 61110486
+      mantar_IDLE_25: 1489193628
+      mantar_IDLE_1: -895653824
+      mantar_IDLE_23: -529377299
+      mantar_IDLE_10: -935525225
+      mantar_IDLE_11: 523627662
+      mantar_IDLE_28: -243638688
+      mantar_IDLE_19: 1575136952
+      mantar_IDLE_20: 1267908361
+      mantar_IDLE_26: 991113855
+      mantar_IDLE_18: -1569800392
+      mantar_IDLE_24: -353882916
+      mantar_IDLE_32: -365890039
+      mantar_IDLE_2: -1642533644
+      mantar_IDLE_5: -1634905949
+      mantar_IDLE_12: 1945547582
+      mantar_IDLE_14: -1736722920
+      mantar_IDLE_34: -1545043597
+      mantar_IDLE_29: 796454951
+      mantar_IDLE_6: -501101328
+      mantar_IDLE_31: 443578608
+      mantar_IDLE_15: -1151416183
+      mantar_IDLE_9: 1264651662
+      mantar_IDLE_33: 2042588225
+      mantar_IDLE_22: 1034061682
+      mantar_IDLE_13: 1797954410
+      mantar_IDLE_8: 514402320
+      mantar_IDLE_0: -181585379
+      mantar_IDLE_4: 1746775445
+      mantar_IDLE_17: -557337858
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

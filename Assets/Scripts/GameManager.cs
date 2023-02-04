@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         if (IsGameOver)
             return;
         IsGameOver = true;
-        TransitionCanvas.Instance.Transition(LoadNextLevel);
+        //TransitionCanvas.Instance.Transition(LoadNextLevel);
     }
 
     public void LoadNextLevel()
