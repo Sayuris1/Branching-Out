@@ -48,6 +48,7 @@ public class Stick : MonoBehaviour
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);
+        ParticleManager.Instance.Play(0, transform.TransformPoint(hinge.anchor));
         _childs.Add(target);
     }
 
@@ -95,6 +96,7 @@ public class Stick : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D col)
     {
+        ParticleManager.Instance.Play(1, col.contacts[0].point);
         if (!sticky)
             return;
         Stick target = col.gameObject.GetComponent<Stick>();
