@@ -137,7 +137,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 0.24451037
   m_LinearDrag: 0
-  m_AngularDrag: 0.4
+  m_AngularDrag: 20
   m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 3b68e736fa69e47da8aed185759ea0b4, type: 2}
   m_Interpolate: 0
@@ -174,11 +174,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sticky: 0
   startSticky: 0
+  defaultAngleForce: 0
   capsuleCol: {fileID: 1800910786541634100}
   topCol: {fileID: 643664604}
   topHinge: {fileID: 643664607}
   bottomCol: {fileID: 643664605}
   bottomHinge: {fileID: 643664606}
+  childTorqueFactor: 1
 --- !u!233 &643664607
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -194,7 +196,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.24}
-  m_ConnectedAnchor: {x: 1.2379323, y: -0.0023287684}
+  m_ConnectedAnchor: {x: -0.9642085, y: 1.2126839}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

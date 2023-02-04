@@ -8,6 +8,7 @@ public class Stick : MonoBehaviour
 {
     public bool sticky = false;
     [SerializeField] private bool startSticky;
+    [SerializeField] private float defaultAngleForce;
     
     private Rigidbody2D _rb;
     [SerializeField] private CapsuleCollider2D capsuleCol;
@@ -16,16 +17,42 @@ public class Stick : MonoBehaviour
     
     [SerializeField] private CircleCollider2D bottomCol;
     [SerializeField] private HingeJoint2D bottomHinge;
+
+    [SerializeField] private float childTorqueFactor = 1f;
+    
     private List<Stick> _childs = new List<Stick>();
+    private JointMotor2D _topMotor;
+    private JointMotor2D _bottomMotor;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _topMotor = topHinge.motor;
+        _bottomMotor = bottomHinge.motor;
     }
 
     private void Start()
     {
         SetSticky(startSticky);
+    }
+
+    private void FixedUpdate()
+    {
+        if (sticky)
+        {
+            NormalizeHinge(bottomHinge, _bottomMotor);
+            NormalizeHinge(topHinge, _topMotor);
+        }
+    }
+
+    private void NormalizeHinge(HingeJoint2D hinge, JointMotor2D motor)
+    {
+        if (!hinge.connectedBody)
+            return;
+        float force = hinge.jointAngle * defaultAngleForce;
+        
+        _rb.AddTorque(force);
+        hinge.connectedBody.AddTorque(-force);
     }
 
     public void SetSticky(bool sticky)
@@ -68,7 +95,7 @@ public class Stick : MonoBehaviour
         _rb.AddTorque(torque);
         foreach (var child in _childs)
         {
-            child.AddTorque(torque);
+            child.AddTorque(torque * childTorqueFactor);
         }
     }
 
