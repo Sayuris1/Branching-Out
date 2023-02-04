@@ -71,6 +71,15 @@ public class Stick : MonoBehaviour
         }
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        foreach (var child in _childs)
+        {
+            Gizmos.DrawLine(transform.position, child.transform.position);
+        }
+    }
+
     private bool CanConnectToCollider(Collider2D col, Stick target)
     {
         if (col == target.bottomCol || col == target.topCol)
