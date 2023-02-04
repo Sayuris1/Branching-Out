@@ -6,6 +6,8 @@ public class Grab : MonoBehaviour
     private HingeJoint2D _hinge;
     private bool _isGrab;
     private Vector3 point;
+
+    
     private void Start()
     {
         _hinge = GetComponent<HingeJoint2D>();
@@ -27,7 +29,9 @@ public class Grab : MonoBehaviour
         if(other.gameObject.CompareTag("Stickable") && _isGrab)
         {
             _hinge.enabled = true;
-            _hinge.connectedBody = other.gameObject.GetComponent<Rigidbody2D>();
+            Rigidbody2D rb = other.gameObject.GetComponent<Rigidbody2D>();
+            _hinge.connectedBody = rb;
+            _hinge.anchor = transform.InverseTransformPoint(rb.position);
 
             _isGrab = false;
         }
