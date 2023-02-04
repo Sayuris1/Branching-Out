@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float _forceToAdd;
+    [SerializeField] private float grabBoost = 2f;
+
+    
     [SerializeField] private float expansionForce = 10f;
 
     private Rigidbody2D _rigitBody;
@@ -14,6 +17,14 @@ public class PlayerController : MonoBehaviour
     public float expandCooldownTime;
     private float _expandCooldownTimer = 0;
     [SerializeField] private float maxExpandMult = 2f;
+
+    public static PlayerController Instance;
+    public bool isGrabbing;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     #region Life Cycle
     private void Start()
@@ -66,11 +77,14 @@ public class PlayerController : MonoBehaviour
             child.AddForce(force * expansionForce);
         }
     }
+
     #endregion
 
     #region Movement
     private void AddForce(float force)
     {
+        if (isGrabbing)
+            force *= grabBoost;
         _stick.AddTorque(force);
     }
     #endregion
