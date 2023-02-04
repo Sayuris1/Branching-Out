@@ -24,7 +24,7 @@ public class Jumper : MonoBehaviour
             if(_isJump)
             {
                 GetComponentInChildren<Animator>().SetBool("jump", true);
-                PlayerController.Instance.Expand(transform.position, _jumpForce);
+                PlayerController.Instance.ExpandTowards(transform.up, _jumpForce);
             }
         }
     }

@@ -88,6 +88,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void ExpandTowards(Vector3 towards, float force)
+    {
+        List<Stick> childs = new List<Stick>();
+        childs.Add(_stick);
+        childs.AddRange(_stick.GetAllChilds());
+        
+        // foreach (var child in childs)
+        // {
+        //     center += child.transform.position;
+        // }
+
+        // center /= childs.Count;
+        foreach (var child in childs)
+        {
+            child.AddForce(towards * force);
+        }
+    }
+
     #endregion
 
     #region Movement
