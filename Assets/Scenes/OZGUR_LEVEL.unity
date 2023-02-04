@@ -984,13 +984,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
     m_Center: {x: -2.1274567, y: -0.16776085, z: 0}
     m_Extent: {x: 11.100728, y: 5.0833206, z: 0}
-=======
-    m_Center: {x: -2.1274567, y: -0.16790485, z: 0}
-    m_Extent: {x: 11.100728, y: 5.0831766, z: 0}
->>>>>>> Stashed changes:Assets/Scenes/OZGUR_LEVEL.unity
 --- !u!4 &501192340
 Transform:
   m_ObjectHideFlags: 0
@@ -1879,13 +1874,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-<<<<<<< Updated upstream:Assets/Scenes/Level1.unity
     m_Center: {x: 0.21060133, y: 1.4533782, z: 0}
     m_Extent: {x: 6.0757017, y: 3.2018242, z: 0}
-=======
-    m_Center: {x: 0.2105403, y: 1.4377359, z: 0}
-    m_Extent: {x: 6.0756407, y: 3.1861818, z: 0}
->>>>>>> Stashed changes:Assets/Scenes/OZGUR_LEVEL.unity
 --- !u!4 &1538689449
 Transform:
   m_ObjectHideFlags: 0
