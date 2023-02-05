@@ -149,6 +149,7 @@ MonoBehaviour:
   _forceToAdd: 23
   grabBoost: 2
   expansionForce: 500
+  _addOrthoValuePerRoot: 0.2
   expandCooldownTime: 5
   maxExpandMult: 2
   isGrabbing: 0

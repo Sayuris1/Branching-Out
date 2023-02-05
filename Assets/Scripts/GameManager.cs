@@ -8,11 +8,26 @@ public class GameManager : MonoBehaviour
 {
     private static int currentLevel = 0;
     public static GameManager Instance;
-    public bool IsGameOver { get; private set; }
+    public bool IsGameOver { get; private set; } = false;
 
     private void Awake()
     {
         Instance = this;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log($"Current level is {currentLevel}");
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+            Restart();
+        if (Input.GetKeyDown(KeyCode.N))
+            WinGame();
+    }
+
+    public void Restart()
+    {
+        TransitionCanvas.Instance.Transition(LoadSameLevel);
     }
 
     public void WinGame()
@@ -20,7 +35,12 @@ public class GameManager : MonoBehaviour
         if (IsGameOver)
             return;
         IsGameOver = true;
-        //TransitionCanvas.Instance.Transition(LoadNextLevel);
+        TransitionCanvas.Instance.Transition(LoadNextLevel);
+    }
+
+    public void LoadSameLevel()
+    {
+        SceneManager.LoadScene(currentLevel);
     }
 
     public void LoadNextLevel()
@@ -30,7 +50,8 @@ public class GameManager : MonoBehaviour
 
     public void LoadLevel(int level)
     {
-        currentLevel++;
-        SceneManager.LoadScene(level);
+        Debug.Log($"Trying to load level ${level}");
+        currentLevel = level;
+        SceneManager.LoadScene(level, LoadSceneMode.Single);
     }
 }

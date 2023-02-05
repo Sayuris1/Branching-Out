@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OZGUR_LEVEL.unity
-    guid: 111ad8345eb25e34292a5c6b761bbe95
+    path: Assets/Scenes/TUTORIAL_1.unity
+    guid: a20c9444715e5364b954238d2d3f0bd8
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 27ac08172f9c24043affd3dde3790357
+    path: Assets/Scenes/alp_tuto2.unity
+    guid: 4fb10b170ebe13841bf5d37c859f1505
+  - enabled: 1
+    path: Assets/Scenes/alp_tuto3.unity
+    guid: 2ad7e99f0d83d7347864bb6432652a84
+  - enabled: 1
+    path: Assets/Scenes/alp_tuto4.unity
+    guid: 9fdce0a4adab942469f7dea977fc9cef
+  - enabled: 0
+    path: Assets/Scenes/kolay.unity
+    guid: 71d870bee9650104383ea684bac848f3
+  - enabled: 0
+    path: Assets/Scenes/Level2.unity
+    guid: a133ecce67ccbcd458493fab663def16
+  - enabled: 0
+    path: Assets/Scenes/kolay orta.unity
+    guid: 93752203fbfdc314f90daeeb5c67d6f6
+  - enabled: 1
+    path: Assets/Scenes/zor.unity
+    guid: e058c47e856b2c749980d358f7f12f10
+  - enabled: 1
+    path: Assets/Scenes/WIN.unity
+    guid: 470786170400847e7a0ae9a1455cd706
   m_configObjects: {}

@@ -98,6 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2206257238252742253}
   - component: {fileID: 2206257238252742252}
+  - component: {fileID: 331967161}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6.89
+    OrthographicSize: 2.79
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -159,3 +160,20 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2206257237254355051}
+--- !u!114 &331967161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206257238252742243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: ca8406bf874679a4cbee4e752cfcfdd3, type: 2}
