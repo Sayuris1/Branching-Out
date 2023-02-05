@@ -27,7 +27,7 @@ public class TransitionCanvas : MonoBehaviour
 
     public void Transition(TweenCallback onComplete)
     {
-        left.DOScaleX(1, transitionSpeed).OnComplete(onComplete);
+        left.DOScaleX(1, transitionSpeed);
         right.DOScaleX(1, transitionSpeed).OnComplete(onComplete);
     }
     

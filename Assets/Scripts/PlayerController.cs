@@ -24,10 +24,18 @@ public class PlayerController : MonoBehaviour
     private int allSticksCount = 0;
 
     private float _currentOrthoScale;
+    [SerializeField] private CinemachineVirtualCamera cam;
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    public float GetCooldownPercent()
+    {
+        if (_expandCooldownTimer < 0)
+            return 0;
+        return _expandCooldownTimer / expandCooldownTime;
     }
 
     #region Life Cycle
@@ -38,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
         allSticksCount = FindObjectsOfType<Stick>().Length;
 
-        _currentOrthoScale = (CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize;
+        _currentOrthoScale = cam.m_Lens.OrthographicSize;
     }
 
     public void AddToOrthoScale()
@@ -69,8 +77,7 @@ public class PlayerController : MonoBehaviour
         _expandCooldownTimer -= Time.deltaTime;
        SetMusicVolume();
 
-        (CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize = 
-            Mathf.Lerp((CinemachineCore.Instance.GetActiveBrain(0).ActiveVirtualCamera as CinemachineVirtualCamera).m_Lens.OrthographicSize, _currentOrthoScale, 0.001f);
+       cam.m_Lens.OrthographicSize = Mathf.Lerp(cam.m_Lens.OrthographicSize, _currentOrthoScale, 0.001f);
     }
 
     private void SetMusicVolume()

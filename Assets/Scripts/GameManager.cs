@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         currentLevel = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log(currentLevel);
+        Debug.Log($"Current level is {currentLevel}");
     }
 
     private void Update()
@@ -50,7 +50,8 @@ public class GameManager : MonoBehaviour
 
     public void LoadLevel(int level)
     {
-        currentLevel++;
-        SceneManager.LoadScene(level);
+        Debug.Log($"Trying to load level ${level}");
+        currentLevel = level;
+        SceneManager.LoadScene(level, LoadSceneMode.Single);
     }
 }
