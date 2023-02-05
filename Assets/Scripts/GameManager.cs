@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private static int currentLevel = 0;
     public static GameManager Instance;
     public bool IsGameOver { get; private set; } = false;
+    [SerializeField] private AudioSource winSource;
 
     private void Awake()
     {
@@ -45,6 +46,13 @@ public class GameManager : MonoBehaviour
         if (IsGameOver)
             return;
         IsGameOver = true;
+        winSource.Play();
+        StartCoroutine(WinGameEnum());
+    }
+
+    IEnumerator WinGameEnum()
+    {
+        yield return new WaitForSeconds(winSource.clip.length * 0.7f);
         TransitionCanvas.Instance.Transition(LoadNextLevel);
     }
 
