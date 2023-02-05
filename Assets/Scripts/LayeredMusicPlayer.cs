@@ -51,7 +51,10 @@ public class LayeredMusicPlayer : MonoBehaviour
 
     private void Update()
     {
-        _currMusicPercent = Mathf.Lerp(_currMusicPercent, musicPercent, Time.deltaTime * 0.5f);
+        float target = musicPercent;
+        if (GameManager.Instance.IsGameOver)
+            target = 0;
+        _currMusicPercent = Mathf.Lerp(_currMusicPercent, target, Time.deltaTime * 0.5f);
         UpdateVolumes(_currMusicPercent * layers.Length);
     }
 

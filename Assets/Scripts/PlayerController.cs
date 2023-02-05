@@ -49,6 +49,12 @@ public class PlayerController : MonoBehaviour
         _currentOrthoScale = cam.m_Lens.OrthographicSize;
     }
 
+    public void Die()
+    {
+        ParticleManager.Instance.Play(2, transform.position);
+        gameObject.SetActive(false);
+    }
+
     public void AddToOrthoScale()
     {
         _currentOrthoScale += _addOrthoValuePerRoot;

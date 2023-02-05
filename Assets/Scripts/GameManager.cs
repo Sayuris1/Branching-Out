@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
             return;
         IsGameOver = true;
         winSource.Play();
+        PlayerController.Instance.Die();
         StartCoroutine(WinGameEnum());
     }
 
