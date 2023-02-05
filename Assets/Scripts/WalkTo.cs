@@ -19,12 +19,15 @@ public class WalkTo : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, _moveTo.position, _speed);
 
-        Debug.Log($"DIIST {Vector3.Distance(transform.position, _moveTo.position)}");
-        if(Vector3.Distance(transform.position, _moveTo.position) <= 0.7)
+        if(Vector3.Distance(transform.position, _moveTo.position) <= 0.9)
         {
             Vector3 temp = _startPoint;
             _startPoint = _moveTo.position;
             _moveTo.position = temp;
+
+            Vector3 scale = transform.localScale;
+            scale.x *= -1;
+            transform.localScale = scale;
         }
     }
 }
