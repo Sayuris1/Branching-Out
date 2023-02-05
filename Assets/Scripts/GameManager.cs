@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private static int currentLevel = 0;
     public static GameManager Instance;
-    public bool IsGameOver { get; private set; }
+    public bool IsGameOver { get; private set; } = false;
 
     private void Awake()
     {
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         if (IsGameOver)
             return;
         IsGameOver = true;
-        //TransitionCanvas.Instance.Transition(LoadNextLevel);
+        TransitionCanvas.Instance.Transition(LoadNextLevel);
     }
 
     public void LoadSameLevel()
