@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: f8b7251f8b1116b4aa82917db66d80c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: volkan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ed1f548dfe5048840e68a510f98eb
+      internalID: 445224806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24feff2601d6ef0449f02b91f98059e7
+      internalID: -942345535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_2
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff28ee5c8ecdacd4ab29013628315359
+      internalID: -1397117533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_3
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff055da6b938f49b39ef32d0c205be
+      internalID: 1234525157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_4
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b86f36f6244bf74e824e95f60cba5c4
+      internalID: -82129458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_5
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14253200d6e3f6344801ca3a8829d7ea
+      internalID: -654441252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_6
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 5168
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd867a730355b1a42aa008c7f958f84c
+      internalID: 427487358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100b1bf62afca54aa4aac40b89e1ec8
+      internalID: 1478785818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_8
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7682064ae466e4e94f61a087623f28
+      internalID: 2055056255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_9
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7c9d6cce86d3f489bf592042848eae
+      internalID: 1874799707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_10
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3896a8dcb8b9a954ba79bacc04020989
+      internalID: 1846708715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_11
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a387af16b96be4ab3399c4e191c488
+      internalID: -1685047217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_12
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8eb980a27a9844ea42f30674848916
+      internalID: -1385760070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_13
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 4522
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bbeaaf9a2ff084a81a2cc463a3a535
+      internalID: 403229613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f0a37c105ec446b69eae9654dfb15
+      internalID: -1079039780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd06ac15bb695984db1bb499c845a0e4
+      internalID: 1053483865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_16
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d7d08aab789c44f89730c77263e4d6
+      internalID: 392008090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_17
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2f5d114d788ef4f997f73e0638e5a7
+      internalID: -789516278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_18
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1db06719d9ae44e814a9805e0ac94d
+      internalID: 861039649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_19
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d1971f87421ec4899ed16bc079be0c
+      internalID: -1829926421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_20
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 3876
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a391c82660fd9545a99561b4197bcee
+      internalID: -1772352777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40237f816356cab49b2cc5f19f3a072b
+      internalID: -250930882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_22
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae8e4d2b58c3c0488cdd8af48df3396
+      internalID: -1367772272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_23
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe1981322d26f14682a4aec26273f4d
+      internalID: 1785283604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_24
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdddac3c5c168644a7a4cfd91bb6b45
+      internalID: -349930487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_25
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5442afa9154d9de4dbb79245866cd793
+      internalID: -16803295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_26
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5af4fed896e45a4b96d76bb76314447
+      internalID: -229233246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_27
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 3230
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83d3763d24975a40a0504eeb21fb709
+      internalID: 1834209740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab780134ea88f1146add1801865fcb68
+      internalID: -1562614166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_29
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e31e6aea983e4498a88515f8fd7f7
+      internalID: 610950035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_30
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918815ff0cce5b948849e958fdf1f015
+      internalID: -153018902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_31
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b687b8f95cc148b636926e2b8f825
+      internalID: 1253921876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_32
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c692bf81ce2f94d9618b9ef624aea9
+      internalID: -1297822999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_33
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1e8b5b1c6a3e4b8097bf19084f9ab
+      internalID: -1988928379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_34
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 2584
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91551b05f9c40c0438deed7dfe427fcb
+      internalID: 928838066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697c09ca4ca472547ba0a64662b73cf8
+      internalID: -915832761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_36
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf975fcd564fe9a41ab8b02d7254400b
+      internalID: 1724449795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_37
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40b831a690054441923f91b753ae2b1
+      internalID: -26276128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_38
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27bfbc36c1ae04ca919fee7f7133b9
+      internalID: 622591550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_39
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36017793acda47549a4fe20e103d4e11
+      internalID: -2132185151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_40
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b344faa68cff243865fecbad8cbd14
+      internalID: -182232276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_41
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 1938
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1025445c62db95d459839e2526498b98
+      internalID: -1136056560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cde7b0eb14c347963def99c9c590b
+      internalID: 1871246003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_43
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598284d039ffab46a21c0c59d059b79
+      internalID: 588368023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_44
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ee54117c21bf7488533a80a6f4f43c
+      internalID: 112254219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_45
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b810fc1ed6c8f98468582eb5d2c8f0e6
+      internalID: 1015857633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_46
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb256003cebfd3478b72ac36186ef47
+      internalID: -346419530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_47
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d977e3804fd9c4d838280df8534953
+      internalID: 2043611808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_48
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 1292
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f52415b8a631c438b37fa061b3ce7c
+      internalID: -892271636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2887ada2842242bb50809bcacb763
+      internalID: -1840274366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_50
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a32103c554e164c86951b5a047c048
+      internalID: -261262325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_51
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0ab6548c93205439f2c34d0981919f
+      internalID: -382823854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_52
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe16196c98a73264ebc6aafd7b3179b2
+      internalID: 1741812827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_53
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d46578981166e5498ebd3f2d64b96ed
+      internalID: -1051137009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_54
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5772398f8d5ba94ab87ac5141c348bf
+      internalID: -2077073248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_55
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 646
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd3d06ce218bd4cb3b2b4a5deb1488
+      internalID: 1467049596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b309099a241a84789fa3213f11d003
+      internalID: 1730565274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_57
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96a8b0f631ae934baf408567ea4226f
+      internalID: -921771262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_58
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 0
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195629f856b5adf438d5369f6cf1776e
+      internalID: 379716185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_59
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 0
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac0fa0c62ef6394484e81a464ff0a56
+      internalID: 1864837243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volkan_60
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 0
+        width: 607
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8807c9ce1a07940a35955b2ffbf8d0
+      internalID: 782978213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      volkan_25: -16803295
+      volkan_50: -261262325
+      volkan_22: -1367772272
+      volkan_8: 2055056255
+      volkan_4: -82129458
+      volkan_20: -1772352777
+      volkan_46: -346419530
+      volkan_54: -2077073248
+      volkan_3: 1234525157
+      volkan_33: -1988928379
+      volkan_43: 588368023
+      volkan_52: 1741812827
+      volkan_56: 1730565274
+      volkan_37: -26276128
+      volkan_27: 1834209740
+      volkan_49: -1840274366
+      volkan_41: -1136056560
+      volkan_28: -1562614166
+      volkan_9: 1874799707
+      volkan_55: 1467049596
+      volkan_1: -942345535
+      volkan_14: -1079039780
+      volkan_44: 112254219
+      volkan_18: 861039649
+      volkan_24: -349930487
+      volkan_29: 610950035
+      volkan_16: 392008090
+      volkan_34: 928838066
+      volkan_57: -921771262
+      volkan_58: 379716185
+      volkan_19: -1829926421
+      volkan_10: 1846708715
+      volkan_26: -229233246
+      volkan_17: -789516278
+      volkan_35: -915832761
+      volkan_51: -382823854
+      volkan_11: -1685047217
+      volkan_30: -153018902
+      volkan_45: 1015857633
+      volkan_7: 1478785818
+      volkan_48: -892271636
+      volkan_32: -1297822999
+      volkan_53: -1051137009
+      volkan_12: -1385760070
+      volkan_21: -250930882
+      volkan_47: 2043611808
+      volkan_0: 445224806
+      volkan_59: 1864837243
+      volkan_38: 622591550
+      volkan_23: 1785283604
+      volkan_31: 1253921876
+      volkan_39: -2132185151
+      volkan_13: 403229613
+      volkan_2: -1397117533
+      volkan_15: 1053483865
+      volkan_6: 427487358
+      volkan_5: -654441252
+      volkan_60: 782978213
+      volkan_40: -182232276
+      volkan_42: 1871246003
+      volkan_36: 1724449795
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
