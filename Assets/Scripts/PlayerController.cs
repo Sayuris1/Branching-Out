@@ -49,6 +49,12 @@ public class PlayerController : MonoBehaviour
         _currentOrthoScale = cam.m_Lens.OrthographicSize;
     }
 
+    public void Die()
+    {
+        ParticleManager.Instance.Play(2, transform.position);
+        gameObject.SetActive(false);
+    }
+
     public void AddToOrthoScale()
     {
         _currentOrthoScale += _addOrthoValuePerRoot;
@@ -84,7 +90,7 @@ public class PlayerController : MonoBehaviour
     {
         int myStickCount = _stick.GetAllChilds().Count;
         myStickCount++;
-        //LayeredMusicPlayer.Instance.musicPercent = myStickCount / (float)allSticksCount;
+        LayeredMusicPlayer.Instance.musicPercent = myStickCount / (float)allSticksCount;
     }
 
     public void Expand(Vector3 pos, float force)

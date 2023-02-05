@@ -4,10 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+
 public class LayeredMusicPlayer : MonoBehaviour
 {
+    [System.Serializable]
+    public class MusicData
+    {
+        public AudioClip Clip;
+        public AudioMixerGroup MixerGroup = null;
+    }
+    
     [Range(0, 1)] public float musicPercent;
-    [SerializeField] private AudioClip[] layers;
+    private float _currMusicPercent;
+    [SerializeField] private MusicData[] layers;
     private List<AudioSource> _sources = new List<AudioSource>();
     [SerializeField] private AudioMixerGroup mixerGroup;
 
@@ -25,12 +34,15 @@ public class LayeredMusicPlayer : MonoBehaviour
 
     void AddComponents()
     {
-        foreach (var audioClip in layers)
+        foreach (var data in layers)
         {
             AudioSource source = gameObject.AddComponent<AudioSource>();
 
-            source.clip = audioClip;
-            source.outputAudioMixerGroup = mixerGroup;
+            source.clip = data.Clip;
+            if (data.MixerGroup)
+                source.outputAudioMixerGroup = data.MixerGroup;
+            else
+                source.outputAudioMixerGroup = mixerGroup;
             source.loop = true;
             source.Play();
             _sources.Add(source);
@@ -39,7 +51,11 @@ public class LayeredMusicPlayer : MonoBehaviour
 
     private void Update()
     {
-        UpdateVolumes(musicPercent * layers.Length);
+        float target = musicPercent;
+        if (GameManager.Instance.IsGameOver)
+            target = 0;
+        _currMusicPercent = Mathf.Lerp(_currMusicPercent, target, Time.deltaTime * 0.5f);
+        UpdateVolumes(_currMusicPercent * layers.Length);
     }
 
     void UpdateVolumes(float volume)
