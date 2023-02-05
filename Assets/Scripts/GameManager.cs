@@ -25,6 +25,16 @@ public class GameManager : MonoBehaviour
             WinGame();
     }
 
+    public void LoadFirstLevel()
+    {
+        LoadLevel(1);
+    }
+
+    public void LoadMainMenu()
+    {
+        LoadLevel(0);
+    }
+
     public void Restart()
     {
         TransitionCanvas.Instance.Transition(LoadSameLevel);

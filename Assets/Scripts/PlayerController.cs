@@ -31,6 +31,13 @@ public class PlayerController : MonoBehaviour
         Instance = this;
     }
 
+    public float GetCooldownPercent()
+    {
+        if (_expandCooldownTimer < 0)
+            return 0;
+        return _expandCooldownTimer / expandCooldownTime;
+    }
+
     #region Life Cycle
     private void Start()
     {
