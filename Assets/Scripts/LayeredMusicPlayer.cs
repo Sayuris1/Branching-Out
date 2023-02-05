@@ -15,7 +15,7 @@ public class LayeredMusicPlayer : MonoBehaviour
     }
     
     [Range(0, 1)] public float musicPercent;
-    [Range(0, 1)]public float _currMusicPercent;
+    private float _currMusicPercent;
     [SerializeField] private MusicData[] layers;
     private List<AudioSource> _sources = new List<AudioSource>();
     [SerializeField] private AudioMixerGroup mixerGroup;

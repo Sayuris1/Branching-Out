@@ -66,14 +66,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicPercent: 0
   layers:
-  - {fileID: 8300000, guid: b9f24c2255c664b4085142720d80da3e, type: 3}
-  - {fileID: 8300000, guid: 169654cb4b6f24f559fb96ccb830f2fc, type: 3}
-  - {fileID: 8300000, guid: 1a002f0f47a324662b1b0de0f3e505a2, type: 3}
-  - {fileID: 8300000, guid: 64ce1dfd50add4c55ac7ad427cea76d0, type: 3}
-  - {fileID: 8300000, guid: 2b1f0447880994dc0b589d3245f2edfb, type: 3}
-  - {fileID: 8300000, guid: f7aeeeceb675e4e609089c7365882ff0, type: 3}
-  - {fileID: 8300000, guid: 57d8bdad722824a30ae21ea995d1e78b, type: 3}
-  - {fileID: 8300000, guid: ec9d2e4fe89aa44ba884f50d3c4f4c20, type: 3}
+  - Clip: {fileID: 8300000, guid: b9f24c2255c664b4085142720d80da3e, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 169654cb4b6f24f559fb96ccb830f2fc, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: f7aeeeceb675e4e609089c7365882ff0, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 1a002f0f47a324662b1b0de0f3e505a2, type: 3}
+    MixerGroup: {fileID: 5210771724317822762, guid: 0fe38fec006d14e2fb25d6e3a39f1f67, type: 2}
+  - Clip: {fileID: 8300000, guid: 64ce1dfd50add4c55ac7ad427cea76d0, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 57d8bdad722824a30ae21ea995d1e78b, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 2b1f0447880994dc0b589d3245f2edfb, type: 3}
+    MixerGroup: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: ec9d2e4fe89aa44ba884f50d3c4f4c20, type: 3}
+    MixerGroup: {fileID: 0}
   mixerGroup: {fileID: -4905391563144717870, guid: 0fe38fec006d14e2fb25d6e3a39f1f67, type: 2}
 --- !u!114 &8767760033651505971
 MonoBehaviour:
