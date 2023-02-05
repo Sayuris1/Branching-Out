@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: cb23549522a920a43b677ea442144b9e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: karinca_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cd44793f1881f40982196baaf9c78d
+      internalID: -176347281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e27716e420cc14baf81dea57df3db8
+      internalID: 547309018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5113ebae5a637ec448f3d3d68130a906
+      internalID: -140119368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b0169318885b340ab854c9bb9faf60
+      internalID: 821260211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_4
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a499f053e04a44bf82eca4dfd3a2f
+      internalID: -1716406870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_5
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aea6417324921499958da9e0a3986a
+      internalID: -2027553874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_6
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2416
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7afa9d04b1e6664daa8bad360d28d74
+      internalID: 257846866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f67dbe84bbda5f469efaba1226bfb36
+      internalID: 854520259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc755ba266529143963907fc4ea3920
+      internalID: 576106087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53acfbe0e82ba574cacd3d3233e6a247
+      internalID: 1021662880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57c2138786464a43bc1c23cab2568dc
+      internalID: 1072719147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54b285475afb1a4ea50504d9eec1cf0
+      internalID: 1934096689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_12
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81b09b1d2044c499e4bf561e0151b2
+      internalID: -701941284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_13
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2114
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5115fe378ee2dc649a2364e2e5f9439a
+      internalID: -733934142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0149007705c45428a5fe7ed243ea18
+      internalID: -1659786989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e6d0efd859c3840bc2bdfd75fb8062
+      internalID: 286954964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_16
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43341fc6b8616694296c24bfe8ef5ddc
+      internalID: -1201948493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_17
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d78a6784655ea748b699acf795ba918
+      internalID: 174040532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_18
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3839841560031f348a387c0500e74a9e
+      internalID: -1458451903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_19
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7637db6e65add5647a8df7f9ee03bb3e
+      internalID: -1020940616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_20
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1812
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cd38fbf9223a644b46f283c0e004f5
+      internalID: -2035815115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4881d7e7da6f84458ca70225676889b
+      internalID: 275800423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859cf9344f2503c4c9c542d4ef0a43f3
+      internalID: 1154434686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cb5f4ac8b7a164ab296c7a2ba17669
+      internalID: 1921068558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_24
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e250068fab94b5c4b81fd7ad8988fb59
+      internalID: 1057230611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_25
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72135b1a41d6f4a837454c07921808
+      internalID: 1758019688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_26
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0e2ed86d1495c4b95abf5a0abf7504
+      internalID: 1868651542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_27
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1510
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31118b74574248d48b248d79179e2628
+      internalID: -467573941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02379bdad688e440bbc8536389ed66b
+      internalID: -937906261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0378a598871e36348b1d47ca99f092ff
+      internalID: 1415499785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_30
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a0a991461f1343a1446fd5a33bfe2
+      internalID: -1829802497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_31
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40d218e68436924d81f72e6b4d1933c
+      internalID: -821527186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_32
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e183a23bb603724caadab2b5f794d6f
+      internalID: 1039583367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_33
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778248585783b2488b3575b6959dade
+      internalID: 1717065174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_34
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1208
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a89a1ead8fe34148b49e0c8999379d2
+      internalID: 337285632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06caa55a8ac410c41a44ddd2d0e6456a
+      internalID: 1651298040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f63c8a3b116cb24894944392655718e
+      internalID: 476245584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca14f29e7990248b0e1c545e3a56fe
+      internalID: -837838321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_38
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44e824c246f8e94690d24fc881fe350
+      internalID: 287128343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_39
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab47f061d6b1942b45050c98e545f4
+      internalID: 1628532690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_40
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d4df915b036c49a04c4391e6d9aff
+      internalID: -444247882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_41
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 906
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35672ed18ba519d40a05b4916ffe16d9
+      internalID: -504450831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6958b4b8c95f4c847830995c988b5d25
+      internalID: 1056872432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_43
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c89b648a279bb49a80b0e249ce32c9
+      internalID: -1378797413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_44
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d7d4457463ced44abf54475352e3ae
+      internalID: -1800310081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_45
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b223f727db6e44a8cc5ec64e0b8672
+      internalID: -447787581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_46
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b4f001d3ac604fbbbb8c9cb18e5b2
+      internalID: -1488604403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_47
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e310d8255cc947f48a54cf1c3200ed0f
+      internalID: -838072512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_48
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 604
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7f34654076aa0479980e936a3b86df
+      internalID: -1899689946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd6efcce97ec4247829536d7532e8a5
+      internalID: 1018063420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_50
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eb8346d2f51d744805da64ae1fc3e6
+      internalID: -793791532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_51
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a37d569f0e5bdc409a1c9e758f36671
+      internalID: -1861940953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_52
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f3877c552568547b9e00f6fbb03710
+      internalID: -480914374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_53
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dc14067d046fc4db9b31425e592d3b
+      internalID: 2018917036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_54
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ee8151249ef364d87bbd3fdfdc982c
+      internalID: 919165703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_55
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 302
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ae350b50f15d94eb1c00ebf1f5bbd2
+      internalID: -1093528462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b38718a15d7d4c938a4bd530557b5
+      internalID: 539978611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_57
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e55e049c5896764092cd03b50a7f09b
+      internalID: -514277375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_58
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb9bd9884a3e74993163fb912ceb6b
+      internalID: -762184843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_59
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb096bdb1e47c5d4cad39f59d378a020
+      internalID: -83794980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karinca_60
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 330
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73872ae70513024e8d40a9910646dd4
+      internalID: 492140003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      karinca_38: 287128343
+      karinca_59: -83794980
+      karinca_52: -480914374
+      karinca_15: 286954964
+      karinca_50: -793791532
+      karinca_13: -733934142
+      karinca_26: 1868651542
+      karinca_5: -2027553874
+      karinca_56: 539978611
+      karinca_37: -837838321
+      karinca_51: -1861940953
+      karinca_18: -1458451903
+      karinca_6: 257846866
+      karinca_36: 476245584
+      karinca_1: 547309018
+      karinca_8: 576106087
+      karinca_31: -821527186
+      karinca_19: -1020940616
+      karinca_0: -176347281
+      karinca_46: -1488604403
+      karinca_10: 1072719147
+      karinca_14: -1659786989
+      karinca_49: 1018063420
+      karinca_28: -937906261
+      karinca_60: 492140003
+      karinca_17: 174040532
+      karinca_21: 275800423
+      karinca_25: 1758019688
+      karinca_58: -762184843
+      karinca_22: 1154434686
+      karinca_54: 919165703
+      karinca_3: 821260211
+      karinca_53: 2018917036
+      karinca_11: 1934096689
+      karinca_33: 1717065174
+      karinca_57: -514277375
+      karinca_34: 337285632
+      karinca_35: 1651298040
+      karinca_32: 1039583367
+      karinca_24: 1057230611
+      karinca_39: 1628532690
+      karinca_45: -447787581
+      karinca_40: -444247882
+      karinca_47: -838072512
+      karinca_9: 1021662880
+      karinca_12: -701941284
+      karinca_4: -1716406870
+      karinca_44: -1800310081
+      karinca_7: 854520259
+      karinca_29: 1415499785
+      karinca_42: 1056872432
+      karinca_2: -140119368
+      karinca_41: -504450831
+      karinca_20: -2035815115
+      karinca_16: -1201948493
+      karinca_30: -1829802497
+      karinca_27: -467573941
+      karinca_43: -1378797413
+      karinca_55: -1093528462
+      karinca_23: 1921068558
+      karinca_48: -1899689946
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
