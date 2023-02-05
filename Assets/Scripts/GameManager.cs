@@ -13,6 +13,21 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log(currentLevel);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+            Restart();
+        if (Input.GetKeyDown(KeyCode.N))
+            WinGame();
+    }
+
+    public void Restart()
+    {
+        TransitionCanvas.Instance.Transition(LoadSameLevel);
     }
 
     public void WinGame()
@@ -21,6 +36,11 @@ public class GameManager : MonoBehaviour
             return;
         IsGameOver = true;
         //TransitionCanvas.Instance.Transition(LoadNextLevel);
+    }
+
+    public void LoadSameLevel()
+    {
+        SceneManager.LoadScene(currentLevel);
     }
 
     public void LoadNextLevel()
