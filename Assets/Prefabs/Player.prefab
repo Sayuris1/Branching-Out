@@ -146,10 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ecb8123cd106f49a1ce7f87e3f5512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceToAdd: 23
+  _forceToAdd: 16
   grabBoost: 2
-  expansionForce: 500
-  _addOrthoValuePerRoot: 0.2
+  expansionForce: 200
+  _addOrthoValuePerRoot: 0.1
   expandCooldownTime: 5
   maxExpandMult: 2
   isGrabbing: 0
+  cam: {fileID: 0}
