@@ -43,9 +43,9 @@ public class Stick : MonoBehaviour
     private void Start()
     {
         SetSticky(startSticky);
-        //moveAudio.clip = moveSounds[Random.Range(0, moveSounds.Length)];
-        //moveAudio.volume = 0;
-        //Invoke("StartAudio", Random.Range(0, moveAudio.clip.length));
+        moveAudio.clip = moveSounds[Random.Range(0, moveSounds.Length)];
+        moveAudio.volume = 0;
+        Invoke("StartAudio", Random.Range(0, moveAudio.clip.length));
     }
 
     private void StartAudio()
@@ -78,7 +78,7 @@ public class Stick : MonoBehaviour
 
     private void Update()
     {
-        //moveAudio.volume = _rb.velocity.magnitude / fullMoveAudioSoundSpeed;
+        moveAudio.volume = _rb.velocity.magnitude / fullMoveAudioSoundSpeed;
     }
 
     private void NormalizeHinge(HingeJoint2D hinge, JointMotor2D motor)
@@ -107,7 +107,7 @@ public class Stick : MonoBehaviour
 
     public void StickToTarget(HingeJoint2D hinge, Stick target)
     {
-        //grepAudio.Play();
+        grepAudio.Play();
         hinge.enabled = true;
         hinge.connectedBody = target._rb;
         target.OnSomeoneStick(this);
