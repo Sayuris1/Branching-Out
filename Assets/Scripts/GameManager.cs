@@ -51,9 +51,14 @@ public class GameManager : MonoBehaviour
         StartCoroutine(WinGameEnum());
     }
 
+    public void StartGame()
+    {
+        StartCoroutine(WinGameEnum());
+    }
+
     IEnumerator WinGameEnum()
     {
-        yield return new WaitForSeconds(winSource.clip.length * 0.7f);
+        yield return new WaitForSeconds(winSource.clip.length * 0.2f);
         TransitionCanvas.Instance.Transition(LoadNextLevel);
     }
 

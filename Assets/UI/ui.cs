@@ -19,7 +19,7 @@ public class ui : MonoBehaviour
 
     public void PressedStart()
     {                       
-        GameManager.Instance.WinGame();
+        GameManager.Instance.StartGame();
     }
 
     public void PressedMute()

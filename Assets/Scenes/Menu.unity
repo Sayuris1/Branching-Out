@@ -373,6 +373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 316206425, guid: 9c4bc1c0c6e0f49428406f703502d960, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8048361764739285239, guid: 9c4bc1c0c6e0f49428406f703502d960, type: 3}
       propertyPath: m_Name
       value: TransitionCanvas

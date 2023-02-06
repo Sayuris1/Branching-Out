@@ -20,19 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/04_TUT.unity
     guid: 9fdce0a4adab942469f7dea977fc9cef
-  - enabled: 0
-    path: Assets/Scenes/kolay.unity
-    guid: 71d870bee9650104383ea684bac848f3
-  - enabled: 0
-    path: Assets/Scenes/Level2.unity
-    guid: a133ecce67ccbcd458493fab663def16
-  - enabled: 0
-    path: Assets/Scenes/kolay orta.unity
-    guid: 93752203fbfdc314f90daeeb5c67d6f6
-  - enabled: 1
-    path: Assets/Scenes/zor.unity
-    guid: e058c47e856b2c749980d358f7f12f10
   - enabled: 1
     path: Assets/Scenes/WIN.unity
     guid: 470786170400847e7a0ae9a1455cd706
+  - enabled: 1
+    path: Assets/Scenes/kolay.unity
+    guid: 71d870bee9650104383ea684bac848f3
+  - enabled: 1
+    path: Assets/Scenes/kolay orta.unity
+    guid: 93752203fbfdc314f90daeeb5c67d6f6
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: a133ecce67ccbcd458493fab663def16
+  - enabled: 1
+    path: Assets/Scenes/zor.unity
+    guid: e058c47e856b2c749980d358f7f12f10
   m_configObjects: {}
